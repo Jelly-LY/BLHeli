@@ -1,3 +1,8 @@
 SiLabs/Output/
 SiLabs/BLHeli.LST
 SiLabs/MakeHex_Result.txt
+*.MAP
+*.OBJ
+*.OMF
+*.LST
+BLHeli_S SiLabs/MakeHex_Result.txt
