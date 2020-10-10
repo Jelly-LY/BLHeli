@@ -17,13 +17,12 @@ You can find the manual in the link above: BLHeli_32 manual ARM Rev32.x.pdf
 
 ## Test code
 
-BLHeli_32 Rev32.6.4 test code is published in the "BLHeli_32 Test code Rev32.6.4 hex files" directory
-- Added real time signal line telemetry (for Dshot and Proshot input)  
-- Added telemetry trig for PWM input (pulse <30us for 1-2ms PWM, Oneshot125 and Oneshot42)  
-- Added capability of Dshot2400 and improved accuracy of Proshot  
-- Added programmable stall protection (BLHeliSuite32 rev must be 32.6.1.4 or higher)
-- Some smaller fixes  
-- The "Rev32.6.6 for inverted bidirectional dshot and GCR return data only" subdirectory contains code to be used with inverted dshot signaling and GCR encoded return data
+The folder "Rev32.7.2 SBUS and S.PORT testcode" contains test code that supports SBUS
+as input signal, and that is compatible with S.PORT for telemetry.
+Note that S.PORT is only supported on ESCs that use USART1 (port PB6) for telemetry.
+If the "S.PORT Physical ID" programming parameter shows up in BLHeliSuite32, then your ESC supports it.
+This test code also has several smaller fixes.
+
 
 ## Discussion threads
 
